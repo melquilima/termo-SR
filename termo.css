@@ -1,0 +1,117 @@
+
+
+body{
+    background: url("./img/img-termo.jpeg") center center no-repeat; 
+    background-size: cover;
+   width: 100%;
+   height: 100%;
+   color: black;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*===========================termo*/
+section{
+    margin: 30px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+
+/*===========================titulo & subtitulo*/
+h1, .sub{
+    text-align: center;
+    padding-top: 10px;
+}
+
+/*===========================secões*/
+.secoes{
+    display: flex;
+}
+
+/*===========================seção one*/
+.one{
+    border: solid black;
+    width: 50%;
+    padding: 15px;
+    margin: 10px;
+}
+
+
+/*===========================seção two*/
+.two{
+    border: solid black;
+    width: 50%;
+    padding: 15px; 
+    margin: 10px;
+}
+
+
+/*===========================Observação*/
+.obs{
+    text-align: center;
+    padding: 0 10px 20px 10px;
+}
+
+
+/*===========================buton voltar*/
+.voltar{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: blanchedalmond;
+    background: #9A6D8E;
+    border: solid 2px wheat;
+    margin: 15px;
+    padding: 10px 100px;
+    border-radius: 40px;
+}
+
+
+a:hover{
+    background: blanchedalmond;
+    color: #9A6D8E;
+}
+
+/*===============================Mobile*/
+
+@media (max-width: 600px){
+
+
+    /*===========================seções mobile*/
+    .secoes{
+        display: grid;
+    }
+
+    section{
+    
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+    /*===========================seção one*/
+    .one{
+        border-bottom: solid black;
+        width: 85%;
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .one h2{
+        text-align: center;
+    }
+
+
+    /*===========================seção two*/
+    .two{
+        border: solid black;
+        width: 85%;
+        padding: 15px; 
+        margin: 10px;
+    }
+    
+}
